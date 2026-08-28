@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Recipe</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Add a New Recipe</h1>
+
+      <p>Share your favorite Ethiopian recipe.</p>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="recipe.html">Recipe</a>
+        <a href="add-recipe.html">Add Recipe</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Recipe Submission Form</h2>
+
+        <form>
+          <label for="recipeName">Recipe Name:</label>
+          <input type="text" id="recipeName" name="recipeName" />
+
+          <label for="category">Food Category:</label>
+          <input type="text" id="category" name="category" />
+
+          <label for="ingredients">Ingredients:</label>
+          <textarea
+            id="ingredients"
+            name="ingredients"
+            rows="5"
+            cols="40"
+          ></textarea>
+
+          <label for="instructions">Cooking Instructions:</label>
+          <textarea
+            id="instructions"
+            name="instructions"
+            rows="6"
+            cols="40"
+          ></textarea>
+
+          <button type="submit">Submit Recipe</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Sample Recipe Table</h2>
+
+        <table>
+          <tr>
+            <th>Recipe</th>
+            <th>Main Ingredient</th>
+            <th>Difficulty</th>
+          </tr>
+
+          <tr>
+            <td>Doro Wat</td>
+            <td>Chicken</td>
+            <td>Medium</td>
+          </tr>
+
+          <tr>
+            <td>Shiro</td>
+            <td>Chickpea Flour</td>
+            <td>Easy</td>
+          </tr>
+
+          <tr>
+            <td>Tibs</td>
+            <td>Beef</td>
+            <td>Easy</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Ethiopian Recipe Platform</p>
+    </footer>
+  </body>
+</html>
